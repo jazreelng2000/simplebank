@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	db "github.com/jazreelng2000/simplebank/db/sqlc"
-	"github.com/jazreelng2000/simplebank/db/util"
+	"github.com/jazreelng2000/simplebank/util"
 	"github.com/lib/pq"
 )
 
@@ -14,7 +14,7 @@ type createUserRequest struct {
 	Username string `json:"username" binding:"required,alphanum"`
 	Password string `json:"password" binding:"required,min=6"`
 	FullName string `json:"full_name" binding:"required"`
-	Email    string `json: "email" binding:"required,email"`
+	Email    string `json:"email" binding:"required,email"`
 }
 
 type createUserResponse struct {

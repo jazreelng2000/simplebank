@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jazreelng2000/simplebank/db/util"
+	"github.com/jazreelng2000/simplebank/util"
 	_ "github.com/lib/pq"
 )
 

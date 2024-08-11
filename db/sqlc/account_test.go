@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jazreelng2000/simplebank/db/util"
+	"github.com/jazreelng2000/simplebank/util"
 	"github.com/stretchr/testify/require"
 )
 
